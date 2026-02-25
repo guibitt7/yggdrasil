@@ -9,12 +9,12 @@ Como o Grafana **não suporta subpastas**, usamos **prefixos** (`ASGARD //`, `MI
 Dashboards sugeridos:
 - `00 - Global Health Overview`  
   *Visão geral de todas as APIs (latência, erros, sucesso/falha, logs principais).*
-- `API - Crédito`
-- `API - Pagamentos`
-- `API - Orquestrador`
-- `API - Fiscal`
+- `Hermes`
+- `Pilar`
+- `Controller`
+- `Reports`
 
-> Observação: cada dashboard por API pode ter filtros fixos como `{job="apis", app="api-credito"}` para focar em uma única API.
+> Observação: cada dashboard por API pode ter filtros fixos como `{job="apis", app="hermes"}` para focar em uma única API.
 
 #### 📁 Folder: `MIDGARD // RPA Operations`
 **Objetivo:** operação e troubleshooting das **Automações/RPA** (robôs Windows).
